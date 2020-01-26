@@ -1,0 +1,9 @@
+.Form{
+    padding: 5px 5px 5px 10px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    width: 300px;
+    font-size: 17px;
+    height: 30px;
+    border:1px solid rgb(97, 89, 97);
+}
