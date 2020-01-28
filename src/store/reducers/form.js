@@ -15,12 +15,10 @@ export default function form (state = initialState, action) {
             }
             break;
         case ADD_VALUE:
-            const todo = [...state.todo];
-            todo.push(action.value)
             return{
                ...state, 
                inputValue : action.value,
-               todo,
+               todo : [...state.todo, action.value],
             }
             break;
             case DELETE:
